@@ -29,7 +29,7 @@ const App = () => {
 
       // 2. 로그 업데이트: 백엔드에서 받은 응답 기록
       setDebugLog({
-        endpoint: '.../generate',
+        endpoint: 'api/shoes/generate',
         status: response.status,
         ok: response.ok ? "✅ 성공" : "❌ 실패",
         sent_body: payload,
